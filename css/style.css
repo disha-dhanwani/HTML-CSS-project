@@ -1,0 +1,187 @@
+html{
+  background-image:url("../images/basquiat-heads.jpg");
+  /* opacity: 50%; */
+  background-attachment: inherit;
+  background-position: center;
+  background-color: lightgrey;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 16px/1.4 "Baskervville", serif;
+  color: #333;
+}
+
+h1 {
+  color: #424874;
+  font-family: "Bradley Hand", cursive;
+  font-size: 4em;
+  margin: 0;
+  padding: 0;
+}
+
+.sub-heading {
+  font-family: "OCR A Std", monospace;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #424874;
+}
+
+header{
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #466365;
+  border-bottom: 2px solid #466365;
+  background-color: #87a9ab;
+  margin-top: 20px;
+}
+
+main {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  align: center;
+  background-color: lightblue;
+  box-sizing: content-box;
+  padding: 30px;
+  border: 10px solid #466365;
+  font-family: "OCR A Std", monospace;
+  /* font-family: "pt mono"; */
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #121212;
+  color: #ccc;
+  margin-top: 20px;
+}
+
+.footer{
+  color: white;
+
+}
+/* unvisited link */
+about.a:link {
+  color: white;
+}
+
+footer a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+nav {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #466365;
+  font: 0.8em Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+nav a {
+
+      /* Step 7a change display of anchors to fill their parent space */
+      display: block;
+      /* Step 7b remove underline */
+      text-decoration: none;
+      /* Step 7c Change the background color to match the color scheme #A6B1E1 */
+      background-color: #A6B1E1;
+      /* Step 7d Change the color of the anchor text #242424 */
+      color: #242424;
+      /* Step 7e increase visibility of text  */
+      /* font: 700 0.8em "Lato", sans-serif; */
+      text-transform: uppercase;
+      /* Step 7f Increase clickable area */
+      padding: 15px;
+      /* Step 7g align center */
+      text-align: center;
+    }
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav li {
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  padding: 15px 10px;
+  background-color: #466365;
+  color: #EFF1ED;
+}
+
+nav a:hover {
+  background-color: #EFF1ED;
+  color: #466365;
+}
+/* also do the css for when the link is active */
+
+li {
+      display: inline-block;
+      /* Step 6 apply the same width to all list items */
+      width: 125px;
+    }
+
+li ul li {
+            display: block;
+          }
+
+li ul {
+        position: absolute;
+        /* Step 4 hide the list */
+        display: none;
+      }
+nav  li:hover ul {
+             display: block;
+           }
+
+div.quotes ul li {
+  list-style-type: disc;
+  display: flex;
+  width: auto;
+}
+div.quotes{
+  font-style: italic;
+}
+
+.lists {
+  font-weight: normal;
+  font-size: 17px;
+}
+
+div img {
+  width: 70%;
+  height: 70%;
+  padding-left: 15%;
+}
+
+section.info-art {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}

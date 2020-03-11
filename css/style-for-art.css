@@ -1,0 +1,24 @@
+
+.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* The width of the container also implies margin around the images. */
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    padding-left: 15%;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    /* background-color: grey; */
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+    text-align: center;
+    padding-left: 15%;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Basquiat | Shop Prints </title>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+    <link a href="../css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Jean-Michel Basquiat</h1>
+			<p class="sub-heading">The famous contemporary artist of our time</p>
+    </header>
+    <nav>
+      <ul class="lists">
+        <li><a href="../main-home.html" title="Go to the Home page">Home</a></li>
+        <li><a href="../webpages/about.html" title="Go to the About page">About</a>
+          <ul>
+            <li> <a href="../webpages/biography.html" title="Go to the Biography page"> Biography </a> </li>
+            <li> <a href="../webpages/quotes.html" title="Go to the Quotes page"> Quotes </a> </li>
+            <li> <a href="../webpages/videos.html" title="Go to the Videos page"> Videos </a> </li>
+          </ul> </li>
+        <li><a href="../webpages/artworks.html" title="Go to the Artworks page">Artworks</a></li>
+        <li><a href="../webpages/shop-online.html" title="Go to the Shop Online page">Shop Prints</a></li>
+        <li><a href="../webpages/contact.html" title="Go to the Contact page">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2> Buy some of Basquiat's artworks in canvas, framed or unframed! </h2>
+      <form id="register" method="get" action="process-form.php">
+        <fieldset>
+					<legend>Personal Information</legend>
+					<div>
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="fname">
+					</div>
+					<div>
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lname">
+					</div>
+					<div>
+						<label for="address">Street Address</label>
+						<input type="text" id="address" name="address">
+					</div>
+					<div>
+						<label for="province">Province</label>
+						<select name="province" id="province">
+							<option value="al">Alberta</option>
+							<option value="bc">British Columbia</option>
+							<option value="on">Ontario</option>
+              <option value="ma">Manitoba</option>
+              <option value="nb">New Brunswick</option>
+              <option value="nl">Newfoundland</option>
+              <option value="nt">Northwest Territories</option>
+              <option value="ns">Nova Scotia</option>
+              <option value="nu">Nunavut</option>
+              <option value="pe">Prince Edward Island</option>
+              <option value="qu">Quebec</option>
+              <option value="sa">Saskatchewan</option>
+              <option value="yt">Yukon Territory</option>
+						</select>
+					</div>
+					<div>
+						<label for="phone">Phone Number</label>
+						<input type="tel" id="phone" name="phone">
+					</div>
+					<div>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email">
+					</div>
+				</fieldset>
+
+        <fieldset>
+					<legend>Buy your art piece today!!</legend>
+          <div>
+            <label for="art-id">Enter the Art_ID</label>
+						<input type="text" id="art-id" name="art-id">
+					</div>
+          <p class="artpiece"> Choose your type: </p>
+          <p class="art-selection">
+            <input type="radio" id="frame" name="size" value="frame">
+						<label for="frame">Frame</label>
+              <fieldset>
+                <div>
+                  <label for="color">Color of frame </label>
+                  <select name="color" id="color">
+      							<option value="sand">Sand</option>
+                    <option value="sm">Soft-Matte</option>
+                    <option value="cb">Coral-Blue</option>
+                    <option value="bl">Black</option>
+      						</select>
+                </div>
+                <div>
+                  <p class="selection-container">
+        					   <input type="checkbox" id="rich-frame-type" name="frame" value="rich-frame-type">
+        					    <label for="rich-frame-type">Rich Wood Frame</label>
+        				  </p>
+                  <p class="selection-container">
+        					   <input type="checkbox" id="matted-frame-type" name="frame" value="matted-frame-type">
+        					    <label for="matted-frame-type">Matted Borders</label>
+        				  </p>
+                  <p class="selection-container">
+        					   <input type="checkbox" id="float-frame-type" name="frame" value="float-frame-type">
+        					    <label for="float-frame-type">Float Mounted</label>
+        				  </p>
+                </div>
+            </fieldset></p>
+            <p class="art-selection">
+              <input type="radio" id="canvas" name="size" value="canvas">
+  						<label for="canvas">Canvas</label>
+              <fieldset>
+                <div>
+                  <label for="color">Color of frame </label>
+                  <select name="color" id="color">
+      							<option value="sand">Sand</option>
+      						</select>
+                </div>
+              </fieldset> </p>
+              <p class="art-selection">
+                <input type="radio" id="unframed" name="size" value="unframed">
+    						<label for="unframed">Unframed</label> </p>
+        </fieldset>
+        <fieldset>
+					<legend>Shipping Details</legend>
+          <p class="selection-container">
+  						<input type="radio" id="e-shipping" name="shipping" value="e-shipping">
+  						<label for="e-shipping">Express Shipping ($24)</label>
+  				</p>
+          <p class="selection-container">
+  						<input type="radio" id="s-shipping" name="shipping" value="s-shipping">
+  						<label for="s-shipping">Standard Shipping ($12)</label>
+  				</p>
+        </fieldset>
+        <p><strong>Warning: Clearing form will erase everything you've entered</strong></p>
+        <input type="reset" value="Clear Form">
+        <div style="text-align: center;">
+					<button type="submit">Order</button>
+				</div>
+      </form>
+    </main>
+    <footer>
+      <small>
+        <p class="footer"> © All content created by Disha Dhanwani - 200434069  |
+          <a href="../webpages/privacy-policy.html" title="Go to the Privacy Policy page"> Privacy Policy</a>
+        </p>
+      </small>
+    </footer>
+  </body>
+</html>
